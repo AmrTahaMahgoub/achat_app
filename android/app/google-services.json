@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936189575288",
+    "project_id": "achat-app-63251",
+    "storage_bucket": "achat-app-63251.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936189575288:android:32b22c46a28109a37d6d8d",
+        "android_client_info": {
+          "package_name": "com.amrmahgoub.Achat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936189575288-med0gqpjetgrdg94b4kbsl92toblr9qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ34SczwDqTlrvEzT1eeaZ_jgDBFGBLHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936189575288-med0gqpjetgrdg94b4kbsl92toblr9qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
