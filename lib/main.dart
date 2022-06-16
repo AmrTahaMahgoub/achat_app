@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:achat_app/screens/login_screen.dart';
 import 'package:achat_app/screens/registration_screen.dart';
 import 'package:achat_app/screens/chat_screen.dart';
-import 'package:achat_app/screens/test_screen.dart';
+import 'package:achat_app/test.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,7 +25,7 @@ class FlashChat extends StatelessWidget {
         LoginScreen.id: ((context) => LoginScreen()),
         RegistrationScreen.id: ((context) => RegistrationScreen()),
         ChatScreen.id: ((context) => ChatScreen()),
-        TestAnimation.id: ((context) => TestAnimation()),
+        // Test.id: ((context) => Test()),
       },
     );
   }
