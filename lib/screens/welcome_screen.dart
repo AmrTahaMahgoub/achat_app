@@ -78,12 +78,16 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               height: 48.0,
             ),
             RoundedButton(
-              color: Colors.lightBlueAccent,
-              title: 'Login',
-              onprees: () {
-                Navigator.pushNamed(context, LoginScreen.id);
-              },
-            ),
+                color: Colors.lightBlueAccent,
+                title: 'Login',
+                onprees: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (BuildContext context) => LoginScreen(),
+                    ),
+                  );
+                }),
             RoundedButton(
                 color: Colors.blueAccent,
                 onprees: () {

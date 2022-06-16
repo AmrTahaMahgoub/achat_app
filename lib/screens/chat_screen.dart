@@ -77,7 +77,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       _firebase.collection('messages').add({
                         'text': messageText,
                         'sender': loggedInUser.email,
-                        'messageTime': DateTime.now()
+                        'messageTime': DateTime.now(),
                       });
                       setState(() {
                         _textEditingController.clear();
@@ -180,3 +180,4 @@ class MessageBubble extends StatelessWidget {
     );
   }
 }
+// first update
